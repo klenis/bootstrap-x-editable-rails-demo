@@ -26,6 +26,7 @@
 The following files are interesting
 
 ````
+Gemfile
 app/assets/javascripts/application.js
 app/assets/stylesheets/application.css
 app/assets/javascripts/posts.js.coffee
