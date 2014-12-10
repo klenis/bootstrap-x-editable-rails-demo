@@ -1,5 +1,5 @@
-# Demo for [bootstrap-x-editable-rails](https://github.com/klenis/bootstrap-x-editable-rails)
-# Tested on rails 4.03. The original version was on rails 4.0.4.
+ # Demo for [bootstrap-x-editable-rails](https://github.com/klenis/bootstrap-x-editable-rails)
+ # Tested on rails 4.03. The original version was on rails 4.0.4.
 
 ## Usage
 
@@ -8,11 +8,11 @@
 
 ### 2. Setup project
 
-```
- # bundle install
- # rake db:migrate (Remove the original file Gemfile.lock if any problem appears and re-run)
- # rake db:seed
-```
+
+1. bundle install
+2. rake db:migrate (Remove the original file Gemfile.lock if any problem appears and re-run)
+3. rake db:seed
+
 
 ### 3. Start Rails
 
@@ -27,10 +27,10 @@
 
 The following files are interesting
 
-````
+ ````
  Gemfile
  app/assets/javascripts/application.js
- app/assets/stylesheets/application.css.sass
+ app/assets/stylesheets/application.css
  app/assets/javascripts/posts.js.coffee
  app/views/posts/index.html.erb
-````
+ ````
