@@ -16,12 +16,20 @@
     <% @posts.each do |post| %>
       <tr>
         <td>
-          <a href="#" data-xeditable="true" data-pk="<%= post.id %>" data-model="post" data-name="title" data-url="<%= post_url(post) %>" data-title="Enter title">
+          <a href="#" data-xeditable="true" data-pk="<%= post.id %>" data-model="post" data-name="title" data-url="<%= post_url(post) %>" data-title="Post Title">
             <%= post.title %>
           </a>
         </td>
-        <td><%= post.body %></td>
-        <td><%= post.published %></td>
+        <td>
+			<a href="#" data-xeditable="true" data-pk="<%= post.id %>" data-model="post" data-name="body" data-url="<%= post_url(post) %>" data-title="Post Body">
+			  <%= post.body %>
+            </a>
+		</td>
+        <td>
+			<a href="#" data-xeditable="true" data-pk="<%= post.id %>" data-model="post" data-name="published" data-url="<%= post_url(post) %>" data-title="Published? True/False">
+				<%= post.published %>
+            </a>
+		</td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
         <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
