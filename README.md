@@ -1,14 +1,16 @@
 # Demo for [bootstrap-x-editable-rails](https://github.com/klenis/bootstrap-x-editable-rails)
+# Tested on rails 4.03. The original version was on rails 4.0.4.
 
 ## Usage
 
 ### 1. Clone repository
+```
 
 ### 2. Setup project
 
 ```
 # bundle install
-# rake db:migrate
+# rake db:migrate (Remove the original file Gemfile.lock if any problem appears and re-run)
 # rake db:seed
 ```
 
