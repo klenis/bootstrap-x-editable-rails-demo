@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-#gem 'rails', '4.0.4'
-gem 'rails', '4.0.3'
+gem 'rails', '4.0.4'
+#gem 'rails', '4.0.3'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -45,5 +45,11 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 gem 'bootstrap-x-editable-rails'
+
+# This causes error in bundle installing!!!
+#gem 'sprockets-rails', '~> 2.1.4'
+
