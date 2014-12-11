@@ -1,4 +1,4 @@
-blogplus
+bootstrap-x-editable-rails
 ========
 
 * Demo for [bootstrap-x-editable-rails](https://github.com/klenis/bootstrap-x-editable-rails)
@@ -17,10 +17,10 @@ Usage
 
 Comments
 -------
-The following files are interesting
-1. Gemfile
-2. app/assets/javascripts/application.js
-3. app/assets/stylesheets/application.css
-4. app/assets/javascripts/posts.js.coffee
-5. app/views/posts/index.html.erb
+ The following files are interesting
+ 1. Gemfile
+ 2. app/assets/javascripts/application.js
+ 3. app/assets/stylesheets/application.css.sass
+ 4. app/assets/javascripts/posts.js.coffee
+ 5. app/views/posts/index.html.erb
  
