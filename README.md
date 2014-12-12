@@ -17,7 +17,7 @@ Usage
 
 Comments
 -------
-The following files are interesting
+* The following files are interesting
 1. Gemfile
 2. app/assets/javascripts/application.js
 3. app/assets/stylesheets/application.css
