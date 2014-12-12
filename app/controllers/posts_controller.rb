@@ -5,6 +5,11 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.all
+    
+    # Refresh the page to enable the X-Editable feature. Cannot work.
+	#~ respond_to do |format|
+		#~ format.js {render inline: "location.reload();" }
+	#~ end    
   end
 
   # GET /posts/1

@@ -1,4 +1,4 @@
-blogplus
+bootstrap-x-editable-rails
 ========
 
 * Demo for [bootstrap-x-editable-rails](https://github.com/klenis/bootstrap-x-editable-rails)
@@ -24,3 +24,6 @@ The following files are interesting
 4. app/assets/javascripts/posts.js.coffee
 5. app/views/posts/index.html.erb
  
+Bugs
+-------
+After creating a new post and going back from the new page, we have to refresh the index page. This is annoying.
