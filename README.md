@@ -27,3 +27,4 @@ Comments
 Bugs
 -------
 1. After creating a new post and going back from the new page, we have to refresh the index page. This is annoying.
+__Resolved__ on Apr 28, 2015 by disabling turbolinks. See the comments in app/views/layouts/application.html.erb.
