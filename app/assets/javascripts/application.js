@@ -10,9 +10,11 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// require turbolinks will cause the page to be refreshed to enable editing again.
+//
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require bootstrap
+//= require bootstrap-sprockets
 //= require bootstrap3-editable/bootstrap-editable
 //= require_tree .
+
